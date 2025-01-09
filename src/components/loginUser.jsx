@@ -17,7 +17,7 @@ export default function Login() {
     };
   
     // Send POST request to login
-    axios.post('https://movie-backend-mizl.onrender.com/user/login', data)
+    axios.post('https://movie-backend-1-s3at.onrender.com/user/login', data)
       .then((res) => {
         console.log('Response:', res); // Log full response for debugging
         if (res.data.status === 'ok') {
