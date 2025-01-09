@@ -235,7 +235,7 @@ function Home() {
         </Link>
         <Link to='/profile'>
           <img
-            src='{require('/src/assets/images/Profile.png')}'
+            src='{require('./assets/images/Profile.png')}'
             alt='Profile'
             className='w-18 h-8 rounded-full hover:bg-teal-300 p-2'
           />
