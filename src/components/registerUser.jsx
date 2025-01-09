@@ -25,7 +25,7 @@ export default function SignUp() {
     };
 
     // Send a POST request to the backend API for user registration
-    axios.post('https://movie-backend-mizl.onrender.com/user/register', data)
+    axios.post('https://movie-backend-mizl.onrender.com/register', data)
       .then((res) => {
         // Handle success response
         if (res.data.status === 'ok') {
