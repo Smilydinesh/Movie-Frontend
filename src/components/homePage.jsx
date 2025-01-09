@@ -94,7 +94,7 @@ function Home() {
         {isAdmin && (
           <Link to='/movie' className='pl-4 pr-4'>
             <img
-              src='/assets/images/Ticket.png'
+              src='/src/assets/images/Ticket.png'
               alt='Admin'
               className='w-12 h-10 rounded-md hover:bg-teal-300 p-2'
             />
