@@ -54,7 +54,7 @@ export default function Search() {
         
         {/* Conditionally render search results */}
         {searchResult && searchResult.length > 0 && (
-          <div className='p-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4'>
+          <div className='p-2 grid place-items-center grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4'>
             {searchResult.map((movie) => (
               <Link to={`/movie/${movie.id}`} key={movie.id}>
                 <div className='p-2 border-2 border-gray-400 w-48 h-76 mb-2 rounded-xl shadow-lg'>
