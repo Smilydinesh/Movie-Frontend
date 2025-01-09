@@ -13,7 +13,7 @@ const ForgotPassword = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://movie-backend-mizl.onrender.com/user/forgot-password', { email });
+      const response = await axios.post('https://movie-backend-1-s3at.onrender.com/user/forgot-password', { email });
       setMessage(response.data.msg); // Display success message
       navigate('/login'); // Redirect to login page after successful request
       setError(''); // Clear any previous error messages
