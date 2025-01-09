@@ -79,13 +79,13 @@ export default function Search() {
       {/* Bottom navigation bar */}
       <div className='p-2 flex justify-evenly bg-gray-400 w-full fixed bottom-0'>
         <Link to='/home'>
-          <img src='../assets/images/Video.png' alt='Video' className='w-18 h-8 rounded-full hover:bg-teal-300 p-2' />
+          <img src='/src/assets/images/Video.png' alt='Video' className='w-18 h-8 rounded-full hover:bg-teal-300 p-2' />
         </Link>
         <button>
-          <img src='../assets/images/Search.png' alt='Search' className='w-18 h-8 rounded-full hover:bg-teal-300 p-2' />
+          <img src='/src/assets/images/Search.png' alt='Search' className='w-18 h-8 rounded-full hover:bg-teal-300 p-2' />
         </button>
         <Link to='/profile'>
-          <img src='../assets/images/Profile.png' alt='Profile' className='w-18 h-8 rounded-full hover:bg-teal-300 p-2' />
+          <img src='/src/assets/images/Profile.png' alt='Profile' className='w-18 h-8 rounded-full hover:bg-teal-300 p-2' />
         </Link>
       </div>
     </form>
