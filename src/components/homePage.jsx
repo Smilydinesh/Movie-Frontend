@@ -13,7 +13,7 @@ function Home() {
 
   // Fetch user data (for example after login)
   useEffect(() => {
-    axios.get('https://movie-backend-mizl.onrender.com/api/user') // Endpoint that returns user data
+    axios.get('https://movie-backend-1-s3at.onrender.com/api/user') // Endpoint that returns user data
       .then((response) => {
         // Assuming the backend sends isAdmin field in the response
         if (response.data.isAdmin) {
@@ -27,7 +27,7 @@ function Home() {
 
   // Fetch top-rated movies
   useEffect(() => {
-    axios.get('https://movie-backend-mizl.onrender.com/api/top-rated')
+    axios.get('https://movie-backend-1-s3at.onrender.com/api/top-rated')
       .then((response) => {
         setMovies(response.data);
       })
@@ -39,7 +39,7 @@ function Home() {
 
   // Fetch now playing movies
   useEffect(() => {
-    axios.get('https://movie-backend-mizl.onrender.com/api/now-playing')
+    axios.get('https://movie-backend-1-s3at.onrender.com/api/now-playing')
       .then((response) => {
         setMovies1(response.data);
       })
@@ -51,7 +51,7 @@ function Home() {
 
   // Fetch upcoming movies
   useEffect(() => {
-    axios.get('https://movie-backend-mizl.onrender.com/api/up-coming')
+    axios.get('https://movie-backend-1-s3at.onrender.com/api/up-coming')
       .then((response) => {
         setMovies2(response.data);
       })
@@ -63,7 +63,7 @@ function Home() {
 
   // Fetch popular movies
   useEffect(() => {
-    axios.get('https://movie-backend-mizl.onrender.com/api/popular')
+    axios.get('https://movie-backend-1-s3at.onrender.com/api/popular')
       .then((response) => {
         setMovies3(response.data);
       })
@@ -75,7 +75,7 @@ function Home() {
 
   // Fetch TV shows
   useEffect(() => {
-    axios.get('https://movie-backend-mizl.onrender.com/api/tv-shows')
+    axios.get('https://movie-backend-1-s3at.onrender.com/api/tv-shows')
       .then((response) => {
         setMovies4(response.data);
       })
