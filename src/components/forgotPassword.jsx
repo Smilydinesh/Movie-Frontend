@@ -33,7 +33,7 @@ const ForgotPassword = () => {
           
           {/* Form */}
           <form onSubmit={handleSubmit}>
-            <div className='p-2'>
+            <div className='p-2 flex justify-center'>
               {/* Email input field */}
               <input
                 type="email"
@@ -45,7 +45,7 @@ const ForgotPassword = () => {
                 className='border-2 w-full sm:w-96 h-12 rounded-full text-center hover:border-yellow-300 outline-green-400'
               />
             </div>
-            <div className='p-2'>
+            <div className='p-2 flex justify-center'>
               {/* Submit button */}
               <button className="w-full md:w-96 h-12 rounded-full bg-green-400 font-bold text-pink-500 p-2 hover:bg-green-500" type="submit">
                 SEND EMAIL
