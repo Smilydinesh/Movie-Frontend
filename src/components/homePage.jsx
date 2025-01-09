@@ -94,7 +94,7 @@ function Home() {
         {isAdmin && (
           <Link to='/movie' className='pl-4 pr-4'>
             <img
-              src='../assets/images/pie-chart.png'
+              src='/src/assets/images/pie-chart.png'
               alt='Admin'
               className='w-12 h-10 rounded-md hover:bg-teal-300 p-2'
             />
@@ -221,21 +221,21 @@ function Home() {
       <div className='p-2 flex justify-evenly bottom-0 bg-gray-400 w-full fixed'>
         <button>
           <img
-            src='../assets/images/Video.png'
+            src='/src/assets/images/Video.png'
             alt='Video'
             className='w-18 h-8 rounded-full hover:bg-teal-300 p-2'
           />
         </button>
         <Link to='/search'>
           <img
-            src='../assets/images/Search.png'
+            src='/src/assets/images/Search.png'
             alt='Search'
             className='w-18 h-8 rounded-full hover:bg-teal-300 p-2'
           />
         </Link>
         <Link to='/profile'>
           <img
-            src='../assets/images/Profile.png'
+            src='/src/assets/images/Profile.png'
             alt='Profile'
             className='w-18 h-8 rounded-full hover:bg-teal-300 p-2'
           />
